@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.tile-component {
+  @apply w-56 h-48 mx-2 my-2 p-2.5 bg-white rounded-xl flex flex-col justify-between hover:shadow-xl;
+}
+
+.in-tile-1 {
+  @apply flex justify-between;
+}
+
+.in-tile-3 {
+  @apply flex justify-between border-t-2;
+}

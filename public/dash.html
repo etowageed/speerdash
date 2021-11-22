@@ -65,7 +65,7 @@
             <div id="main_dash" class=" p-10 flex flex-wrap">
                 <!-- share div -->
             <div class="w-full flex justify-between p-2 mr-3 mb-10">
-                    <span class="text-2xl font-bold text-gray-700"> <i class="fa fa-file-text-o mr-3 "></i>All Spaces</span>
+                    <span class="text-2xl font-bold text-gray-700"> <i class="fa fa-file-text-o mr-3 "></i>All Projects</span>
                 <span>                    
                     <button class="py-2 px-2.5 bg-blue-700 mx-2 rounded-lg text-white">
                     <i class="fa fa-paper-plane mr-3"></i>
@@ -75,7 +75,7 @@
                 </span>
             </div>
                <!-- dashboard tiles -->
-                <div class="w-56 h-48 mx-2 my-2 p-3 bg-blue-700 rounded-xl">
+                <div id="newProject" class="w-56 h-48 mx-2 my-2 p-3 bg-blue-700 rounded-xl shadow-2xl cursor-pointer" onclick="removeShadow()">
                         
                             <svg xmlns="http://www.w3.org/2000/svg" class="h-20 w-20 mb-10 mt-3 text-white block mx-auto" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1" d="M9 13h6m-3-3v6m5 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" />
@@ -83,7 +83,7 @@
                         
                        
 
-                    <span class="text-white text-center w-full inline-block">Add new document</span>
+                    <span class="text-white text-center w-full inline-block">Start new project</span>
                 </div>
 
                <div class="tile-component">
@@ -218,6 +218,6 @@
         </div>
 
     </div>
-    
+    <script type="text/javascript" src="main.js"></script>
 </body>
 </html>
